@@ -40,3 +40,57 @@
 .read-the-docs {
   color: #888;
 }
+
+.completed {
+  text-decoration: line-through;
+}
+
+.add-form  {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.add-task-input {
+  width: 100%;
+  border: 2px solid #efefef;
+  padding: 0 0.5rem;
+  border-radius: 0.25rem;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+.filters {
+  display: grid;
+  width: 100%;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 1rem;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.todo-item span {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.todo-item button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: grey;
+}
